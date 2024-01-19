@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<script src="./script.js"></script>
+
+<body>
+
+    <section class="container">
+    <h1 class="tit" style="font-size: 60px;font-family: 'Creepster', system-ui;">Cálculo de IPVA por Estado em 2024 </h1>
+
+    <h3 style="font-size: 30px; margin-top: -20px;">Primeiramente, precisamos verificar se o seu veículo está isento do IPVA. Em alguns estados, dependendo do ano de fabricação do veículo, esse imposto não é cobrado.</h3>
+    
+    <h4>Qual o estado que o seu veículo está registrado? </h4>
+    <select id="options">
+
+        <option value="ac">Acre</option>
+        <option value="al">Alagoas</option>
+        <option value="ap">Amapá</option>
+        <option value="am">Amazonas</option>
+        <option value="ba">Bahia</option>
+        <option value="ce">Ceará</option>
+        <option value="df">Distrito Federal</option>
+        <option value="es">Espírito Santo</option>
+        <option value="go">Goiás</option>
+        <option value="ma">Maranhão</option>
+        <option value="mt">Mato Grosso</option>
+        <option value="ms">Mato Grosso do Sul</option>
+        <option value="mg">Minas Gerais</option>
+        <option value="pa">Pará</option>
+        <option value="pb">Paraíba</option>
+        <option value="pr">Paraná</option>
+        <option value="pe">Pernambuco</option>
+        <option value="pi">Piauí</option>
+        <option value="rj">Rio de Janeiro</option>
+        <option value="rn">Rio Grande do Norte</option>
+        <option value="rs">Rio Grande do Sul</option>
+        <option value="ro">Rondônia</option>
+        <option value="rr">Roraima</option>
+        <option value="sc">Santa Catarina</option>
+        <option value="sp">São Paulo</option>
+        <option value="se">Sergipe</option>
+        <option value="to">Tocantins</option>
+    </select>
+
+<h3>Qual o ano do seu veículo?</h3>
+<input type="number" id="ano" placeholder="ex: 2013"> 
+<br>
+<button onclick="verificar()">Verificar:</button>
+<h4 id="isencao"> 🤔 </h4>
+<img id="amo" style="width: 60%;" src="./amo.jpg">
+<img id="burro" style="width: 60%;" src="./burro.jpg">  
+    
+<div id="calculo"> 
+    <img style="width: 60%;" src="./odeioo.jpg">  
+<h3>Qual o seu Veículo?</h3>
+    <select id="veiculo">
+        <option value="carro">Carro de passeio</option>
+        <option value="carro-servico">Caminhonete e utilitário</option>
+        <option value="moto">Motocicleta</option>
+    </select>
+    <h4>Digite o valor FIPE do seu veículo: (Caso não saiba, consulte <a style="text-decoration: none;"
+            href="https://veiculos.fipe.org.br/" target="_blank"><span style="color: red;">AQUI.</span></a>
+        ) </h4>
+    <input type="number" id="valor-carro" placeholder="ex: 35500">
+    
+    <br>
+    <br>
+    <button onclick="ipva()">Calcular IPVA:</button>
+    <h3 id="resultado">O valor a pagar de IPVA é de: </h3>
+
+</div> 
+
+
+<p class="copy">© Fabricio Ribeiro</p>
+</section>
+</body>
+
+</html>

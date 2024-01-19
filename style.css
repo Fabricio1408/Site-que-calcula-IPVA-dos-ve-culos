@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=PT+Sans:ital@1&display=swap');
+#calculo{
+    display: none;
+}
+body{
+    font-size: 30px;
+    font-family: 'PT Sans', sans-serif;
+    background: radial-gradient(ellipse at bottom, #5a84b6 0%, #0a305f 100%);
+    min-height: 100vh;
+    color: white;
+    text-shadow: 1px 1px 2px #000000, -1px 1px #000000, 1px 1px 1px #000000, -1px -1px 1px #000000;
+
+}
+#amo{
+    display: none;
+}
+#burro{
+    display: none;
+}
+.copy{
+    font-size: 10px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+}
+select{
+    padding: 5px;
+    font-size: 25px;
+    text-align: center;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    font-family: 'Creepster', system-ui;
+
+}
+button{
+    padding: 5px;
+    font-size: 20px;
+    text-align: center; 
+    border: 1px solid #000000;
+    border-radius: 4px;
+    font-family: 'Creepster', system-ui;
+}
+input{
+    padding: 5px;
+    font-size: 25px;
+    text-align: center;    border: 1px solid #000000;
+    border-radius: 4px;
+    font-family: 'Creepster', system-ui;
+}
+
