@@ -9,120 +9,120 @@ function ipva(){
 
     if (opcoes == 'sp'){
         if (veiculo == 'carro') {
-            result.innerHTML = `O valor a pagar de IPVA é de: ${valor * 0.04} R$.`;
+            result.innerHTML = `O valor a pagar de IPVA é de: ${(valor * 0.04).toFixed(2)} R$.`;
         } else if (veiculo == 'carro-servico') {
-            result.innerHTML = `O valor a pagar de IPVA é de: ${valor * 0.02} R$.`;
+            result.innerHTML = `O valor a pagar de IPVA é de: ${(valor * 0.02).toFixed(2)} R$.`;
         } else if (veiculo == 'moto') {
-            result.innerHTML = `O valor a pagar de IPVA é de: ${valor * 0.02} R$.`;
+            result.innerHTML = `O valor a pagar de IPVA é de: ${(valor * 0.02).toFixed(2)} R$.`;
         }
     
     }
     if (opcoes == 'rn' || opcoes == 'ap' || opcoes == 'am' || opcoes == 'ce' || opcoes == 'pi' || opcoes == 'ro' || opcoes == 'rs' || opcoes == 'se'){
         if (veiculo == 'carro') {
-            result.innerHTML = `O valor a pagar de IPVA é de: ${valor * 0.03} R$.`;
+            result.innerHTML = `O valor a pagar de IPVA é de: ${(valor * 0.03).toFixed(2)} R$.`;
         } else if (veiculo == 'carro-servico') {
-            result.innerHTML = `O valor a pagar de IPVA é de: ${valor * 0.03} R$.`;
+            result.innerHTML = `O valor a pagar de IPVA é de: ${(valor * 0.03).toFixed(2)} R$.`;
         } else if (veiculo == 'moto') {
-            result.innerHTML = `O valor a pagar de IPVA é de: ${valor * 0.02} R$.`;
+            result.innerHTML = `O valor a pagar de IPVA é de: ${(valor * 0.02).toFixed(2)} R$.`;
         }
     
     }
     if (opcoes == 'rj' || opcoes == 'mg'){
         if (veiculo == 'carro') {
-            result.innerHTML = `O valor a pagar de IPVA é de: ${valor * 0.04} R$.`;
+            result.innerHTML = `O valor a pagar de IPVA é de: ${(valor * 0.04).toFixed(2)} R$.`;
         } else if (veiculo == 'carro-servico') {
-            result.innerHTML = `O valor a pagar de IPVA é de: ${valor * 0.03} R$.`;
+            result.innerHTML = `O valor a pagar de IPVA é de: ${(valor * 0.03).toFixed(2)} R$.`;
         } else if (veiculo == 'moto') {
-            result.innerHTML = `O valor a pagar de IPVA é de: ${valor * 0.02} R$.`;
+            result.innerHTML = `O valor a pagar de IPVA é de: ${(valor * 0.02).toFixed(2)} R$.`;
         }
     
     }
     if (opcoes == 'ac'){
         if (veiculo == 'carro') {
-            result.innerHTML = `O valor a pagar de IPVA é de: ${valor * 0.02} R$.`;
+            result.innerHTML = `O valor a pagar de IPVA é de: ${(valor * 0.02).toFixed(2)} R$.`;
         } else if (veiculo == 'carro-servico') {
-            result.innerHTML = `O valor a pagar de IPVA é de: ${valor * 0.01} R$.`;
+            result.innerHTML = `O valor a pagar de IPVA é de: ${(valor * 0.01).toFixed(2)} R$.`;
         } else if (veiculo == 'moto') {
-            result.innerHTML = `O valor a pagar de IPVA é de: ${valor * 0.01} R$.`;
+            result.innerHTML = `O valor a pagar de IPVA é de: ${(valor * 0.01).toFixed(2)} R$.`;
         }
         console.log(ano)
 
     
     }
     if (opcoes == 'al' || opcoes == 'ba' || opcoes == 'pb' || opcoes == 'pe'){
-        result.innerHTML = `O valor a pagar de IPVA é de: ${valor * 0.03} R$.`;
+        result.innerHTML = `O valor a pagar de IPVA é de: ${(valor * 0.03).toFixed(2)} R$.`;
     }
     if (opcoes == 'pr'){
-        result.innerHTML = `O valor a pagar de IPVA é de: ${valor * 0.04} R$.`;
+        result.innerHTML = `O valor a pagar de IPVA é de: ${(valor * 0.04).toFixed(2)} R$.`;
     }
 
     if (opcoes == 'to'){
         if (veiculo == 'carro') {
-            result.innerHTML = `O valor a pagar de IPVA é de: ${valor * 0.02} R$.`;
+            result.innerHTML = `O valor a pagar de IPVA é de: ${(valor * 0.02).toFixed(2)} R$.`;
         } else if (veiculo == 'carro-servico') {
-            result.innerHTML = `O valor a pagar de IPVA é de: ${valor * 0.03} R$.`;
+            result.innerHTML = `O valor a pagar de IPVA é de: ${(valor * 0.03).toFixed(2)} R$.`;
         } else if (veiculo == 'moto') {
-            result.innerHTML = `O valor a pagar de IPVA é de: ${valor * 0.02} R$.`;
+            result.innerHTML = `O valor a pagar de IPVA é de: ${(valor * 0.02).toFixed(2)} R$.`;
         }
     
     }
     if (opcoes == 'df'){
         if (veiculo == 'carro') {
-            result.innerHTML = `O valor a pagar de IPVA é de: ${valor * 0.04} R$.`;
+            result.innerHTML = `O valor a pagar de IPVA é de: ${(valor * 0.04).toFixed(2)} R$.`;
         } else if (veiculo == 'carro-servico') {
-            result.innerHTML = `O valor a pagar de IPVA é de: ${valor * 0.01} R$.`;
+            result.innerHTML = `O valor a pagar de IPVA é de: ${(valor * 0.01).toFixed(2)} R$.`;
         } else if (veiculo == 'moto') {
-            result.innerHTML = `O valor a pagar de IPVA é de: ${valor * 0.02} R$.`;
+            result.innerHTML = `O valor a pagar de IPVA é de: ${(valor * 0.02).toFixed(2)} R$.`;
         }
     
     }
     if (opcoes == 'es' || opcoes == 'sc'){
         if (veiculo == 'carro') {
-            result.innerHTML = `O valor a pagar de IPVA é de: ${valor * 0.02} R$.`;
+            result.innerHTML = `O valor a pagar de IPVA é de: ${(valor * 0.02).toFixed(2)} R$.`;
         } else if (veiculo == 'carro-servico') {
-            result.innerHTML = `O valor a pagar de IPVA é de: ${valor * 0.02} R$.`;
+            result.innerHTML = `O valor a pagar de IPVA é de: ${(valor * 0.02).toFixed(2)} R$.`;
         } else if (veiculo == 'moto') {
-            result.innerHTML = `O valor a pagar de IPVA é de: ${valor * 0.01} R$.`;
+            result.innerHTML = `O valor a pagar de IPVA é de: ${(valor * 0.01).toFixed(2)} R$.`;
         }
     
     }
     if (opcoes == 'go'){
         if (veiculo == 'carro') {
-            result.innerHTML = `O valor a pagar de IPVA é de: ${valor * 0.04} R$.`;
+            result.innerHTML = `O valor a pagar de IPVA é de: ${(valor * 0.04).toFixed(2)} R$.`;
         } else if (veiculo == 'carro-servico') {
-            result.innerHTML = `O valor a pagar de IPVA é de: ${valor * 0.03} R$.`;
+            result.innerHTML = `O valor a pagar de IPVA é de: ${(valor * 0.03).toFixed(2)} R$.`;
         } else if (veiculo == 'moto') {
-            result.innerHTML = `O valor a pagar de IPVA é de: ${valor * 0.03} R$.`;
+            result.innerHTML = `O valor a pagar de IPVA é de: ${(valor * 0.03).toFixed(2)} R$.`;
         }
     
     }
     if (opcoes == 'rr'){
         if (veiculo == 'carro') {
-            result.innerHTML = `O valor a pagar de IPVA é de: ${valor * 0.03} R$.`;
+            result.innerHTML = `O valor a pagar de IPVA é de: ${(valor * 0.03).toFixed(2)} R$.`;
         } else if (veiculo == 'carro-servico') {
-            result.innerHTML = `O valor a pagar de IPVA é de: ${valor * 0.02} R$.`;
+            result.innerHTML = `O valor a pagar de IPVA é de: ${(valor * 0.02).toFixed(2)} R$.`;
         } else if (veiculo == 'moto') {
-            result.innerHTML = `O valor a pagar de IPVA é de: ${valor * 0.02} R$.`;
+            result.innerHTML = `O valor a pagar de IPVA é de: ${(valor * 0.02).toFixed(2)} R$.`;
         }
     
     }
     if (opcoes == 'pa' || opcoes == 'mt' || opcoes == 'ma'){
         if (veiculo == 'carro') {
-            result.innerHTML = `O valor a pagar de IPVA é de: ${valor * 0.03} R$.`;
+            result.innerHTML = `O valor a pagar de IPVA é de: ${(valor * 0.03).toFixed(2)} R$.`;
         } else if (veiculo == 'carro-servico') {
-            result.innerHTML = `O valor a pagar de IPVA é de: ${valor * 0.03} R$.`;
+            result.innerHTML = `O valor a pagar de IPVA é de: ${(valor * 0.03).toFixed(2)} R$.`;
         } else if (veiculo == 'moto') {
-            result.innerHTML = `O valor a pagar de IPVA é de: ${valor * 0.01} R$.`;
+            result.innerHTML = `O valor a pagar de IPVA é de: ${(valor * 0.01).toFixed(2)} R$.`;
         }
     
     }
     if (opcoes == 'ms'){
         if (veiculo == 'carro') {
-            result.innerHTML = `O valor a pagar de IPVA é de: ${valor * 0.04} R$.`;
+            result.innerHTML = `O valor a pagar de IPVA é de: ${(valor * 0.04).toFixed(2)} R$.`;
         } else if (veiculo == 'carro-servico') {
-            result.innerHTML = `O valor a pagar de IPVA é de: ${valor * 0.04} R$.`;
+            result.innerHTML = `O valor a pagar de IPVA é de: ${(valor * 0.04).toFixed(2)} R$.`;
         } else if (veiculo == 'moto') {
-            result.innerHTML = `O valor a pagar de IPVA é de: ${valor * 0.02} R$.`;
+            result.innerHTML = `O valor a pagar de IPVA é de: ${(valor * 0.02).toFixed(2)} R$.`;
         }
     
     }
@@ -211,3 +211,17 @@ function verificar(){
 }
 
 
+function escurecer(){
+    const body = document.body;
+    const escurecer = document.getElementById('escurecer')
+
+    body.classList.toggle('dark')
+
+    if (body.classList.contains('dark')){
+        escurecer.src = './white.png'
+    }
+    else{
+        escurecer.src = './dark.png'
+
+    }
+}
