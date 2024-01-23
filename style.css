@@ -11,7 +11,7 @@ body{
 }
 .dark{
     background-color: #000000;
-    color: rgb(205, 205, 205);
+    color: white;
     text-shadow: 1px 1px 2px #8581f6, -1px 1px #000000, 1px 1px 1px #000000, -1px -1px 1px #000000;
 
     
