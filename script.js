@@ -201,9 +201,9 @@ function verificar(){
     }
     else{
         ise.innerHTML = 'Seu veiculo não esta isento!😫 Prossiga com as próximas etapas.'
-        vh.style.display = 'block'
-        burro.style.display = 'none'
-        amo.style.display = 'none'
+     //   vh.style.display = 'block'
+      //  burro.style.display = 'none'
+       // amo.style.display = 'none'
 
 
     }
